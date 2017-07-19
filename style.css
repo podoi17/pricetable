@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.page-header {
+    background: #476C9B;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    font-weight: 300;
+
+}
+
+.page-title {
+    margin: 0;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0;
+    border-left: 1px solid #FFF;
+
+}
+
+.header-button {
+    padding: 0;
+    background: #333333;
+    padding: 12px;
+    margin: 0;
+    margin-left: 16px;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 300;
+
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+.header-button--alt {
+    background: #D54F5A;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 0;
+}
+.header-button:active {
+    background: #7994B6;
+}
+
+.language {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.language:hover {
+    text-decoration: underline;
+}
+
+.menu-item {
+    margin: 0 16px;
+    color: #FFF;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.offer {
+    border: 1px solid #C3C3C3;
+    margin: 70px 12px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    position: relative;
+
+}
+
+.offer:first-child {
+    margin-left: 64px;
+}
+
+.offer:last-child {
+    margin-right: 64px;
+}
+
+.offer--best {
+    box-shadow: 0px 0px 10px 3px rgba(51,51,51,.3);
+
+}
+
+.offer-title {
+    color: #333;
+    font-weight: 300;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.price {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin:24px 0;
+    color: #333;
+}
+
+.info {
+    margin:0;
+    color: #C3C3C3;
+    font-weight: 300;
+}
+
+.content {
+    list-style-type: none;
+    margin: 24px 0;
+    padding: 0;
+    flex-grow: 1;
+}
+.content-item {
+    color: #333;
+    font-weight: 300;
+
+}
+
+.button {
+    background: #476C9B;
+    margin-top: 24px;
+    padding: 8px 24px;
+    color: #FFF;
+    font-weight: 300;
+    border: 0;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.button--alt {
+    background: #D54F5A;
+}
+
+.add-info {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.popup {
+    border:1px solid #C3C3C3;
+    border-radius: 25px 25px 25px 25px;
+    color: #D54F5A;
+    background: #FFF;
+    padding: 8px;
+    position: absolute;
+    left:50%;
+    top:0;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+
+
+
